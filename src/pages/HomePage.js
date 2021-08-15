@@ -6,7 +6,7 @@ import { Routes } from "../routes";
 import DashboardOverview from "./dashboard/DashboardOverview";
 import Presentation from "./Presentation";
 import Transactions from "./Transactions";
-import Settings from "./Settings";
+// import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
 import Signin from "./examples/Signin";
 import Signup from "./examples/Signup";
@@ -113,7 +113,6 @@ export default () => (
     <RouteWithSidebar exact path={Routes.Presentation.path} component={Presentation} />
     <RouteWithSidebar exact path={Routes.DashboardOverview.path} component={DashboardOverview} />
     <RouteWithSidebar exact path={Routes.Transactions.path} component={Transactions} />
-    <RouteWithSidebar exact path={Routes.Settings.path} component={Settings} />
     <RouteWithSidebar exact path={Routes.BootstrapTables.path} component={BootstrapTables} />
 
     {/* components */}

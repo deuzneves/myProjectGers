@@ -12,6 +12,7 @@ import Major from "../assets/img/Major.png";
 import repair from "../assets/img/repair.png";
 import majorRepair from "../assets/img/major-repair.png";
 
+// template code from line 16 to 68
 
 export default () => {
   const PagePreview = (props) => {
@@ -74,7 +75,7 @@ export default () => {
           <Navbar.Brand as={HashLink} to="/" className="me-lg-3 d-flex align-items-center">
             <span className="ms-2 brand-text d-none d-md-inline">Ger's Garage</span>
           </Navbar.Brand>
-
+               {/* Navbar code */}
           <div className="d-flex align-items-center">
             <Navbar.Collapse id="navbar-default-primary">
               <Nav className="navbar-nav-hover align-items-lg-center">
@@ -122,7 +123,10 @@ export default () => {
           </div>
  
       <section className="section section-md bg-soft pt-lg-3" id="features">
-        <Container>
+        <Container> 
+          
+          {/* Summary of the services offered by Ger's Garage */}
+
           <Row className="justify-content-between align-items-center mb-5 mb-lg-7">
           <h1 className="fw-bolder text-secondary">Our Services</h1>
             <Col lg={5} className="order-lg-2 mb-5 mb-lg-0">

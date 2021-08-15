@@ -5,7 +5,6 @@ export const Routes = {
     DashboardOverview: { path: "/dashboard" },
     Booking: { path: "/Bookings/booking" },
     Transactions: { path: "/transactions" },
-    Settings: { path: "/settings" },
     Upgrade: { path: "/upgrade" },
     BootstrapTables: { path: "/tables/bootstrap-tables" },
     Billing: { path: "/examples/billing" },
